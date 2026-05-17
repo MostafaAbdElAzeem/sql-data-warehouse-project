@@ -17,7 +17,7 @@ The pipeline processes data through three progressive layers before exposing it 
 
 ## 🏛️ Architecture
 
-![High Level Architecture](docs/data_architecture.png)
+![High Level Architecture](Docs/data_architecture.png)
 
 | Layer | Object Type | Description |
 |---|---|---|
@@ -29,7 +29,7 @@ The pipeline processes data through three progressive layers before exposing it 
 
 ## 🔄 Data Flow (Lineage)
 
-![Data Flow](docs/data_flow.png)
+![Data Flow](Docs/data_flow.png)
 
 Six source tables flow through the pipeline:
 
@@ -43,7 +43,7 @@ These are cleaned in the Silver layer and ultimately merged into three Gold obje
 
 ## 🔗 Data Integration
 
-![Data Integration](docs/data_integration.png)
+![Data Integration](Docs/data_integration.png)
 
 The ERP and CRM datasets are joined through shared keys:
 
@@ -56,7 +56,7 @@ The ERP and CRM datasets are joined through shared keys:
 
 ## ⭐ Star Schema (Gold Layer)
 
-![Star Schema](docs/data_model.png)
+![Star Schema](Docs/data_model.png)
 
 ### `gold.fact_sales`
 | Column | Description |
